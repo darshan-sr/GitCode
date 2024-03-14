@@ -342,6 +342,11 @@ def main(path='.', webdriver=None):
                     ext = ".cpp"
                 elif "language-c" in lang:
                     ext = ".c"
+                elif "language-javascript" in lang:
+                    ext = ".js"
+                elif "language-typescript" in lang:
+                    ext = ".ts"
+                   
 
                 # making the file
                 f = open(folder + problemname.replace(" ",
